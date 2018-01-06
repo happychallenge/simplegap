@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
+    
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>NAMJU</title>
+
+
+</head>
+
+<body>
+
+<div id="app">
+    <div data-role="page" id="home">
+
+        <div data-role="header">
+            <h1>HOME</h1>
+        </div><!-- /header -->
+
+        <div data-role="content">   
+            <p>This is a single page boilerplate template that you can copy to build your first jQuery Mobile page. Each link or form from here will pull a new page in via Ajax to support the animated page transitions.</p>      
+            <p>Just view the source and copy the code to get started. All the CSS and JS is linked to the jQuery CDN versions so this is super easy to set up. Remember to include a meta viewport tag in the head to set the zoom level.</p>
+            <p>This template is standard HTML document with a single "page" container inside, unlike a <a href="#about" data-ajax="false">about</a> that has multiple pages within it. We strongly recommend building your site or app as a series of separate pages like this because it's cleaner, more lightweight and works better without JavaScript.</p>
+        </div><!-- /content -->
+
+        <div data-role="footer" class="nav-glyphish-example" data-position="fixed">
+            <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+                <ul>
+                    <li><a href="#home" data-icon="custom" class="ui-btn-active">HOME</a></li>
+                    <li><a href="#" data-icon="custom">Email</a></li>
+                    <li><a href="#map" data-icon="custom">MAP</a></li>
+                    <li><a href="#" data-icon="custom">Beer</a></li>
+                    <li><a href="#about" data-icon="custom">About</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div><!-- /page -->
+
+    <div data-role="page" id="about">
+
+        <div data-role="header">
+            <h1>ABOUT</h1>
+        </div><!-- /header -->
+
+        <div data-role="content">   
+            <p>About This is a single page boilerplate template that you can copy to build your first jQuery Mobile page. Each link or form from here will pull a new page in via Ajax to support the animated page transitions.</p>      
+            <p>About Just view the source and copy the code to get started. All the CSS and JS is linked to the jQuery CDN versions so this is super easy to set up. Remember to include a meta viewport tag in the head to set the zoom level.</p>
+            <p>About This template is standard HTML document with a single "page" container inside, unlike a <a href="#home" data-ajax="false">Home</a> that has multiple pages within it. We strongly recommend building your site or app as a series of separate pages like this because it's cleaner, more lightweight and works better without JavaScript.</p>
+        </div><!-- /content -->
+        
+        <div data-role="footer" class="nav-glyphish-example" data-position="fixed">
+            <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+                <ul>
+                    <li><a href="#home" data-icon="custom">HOME</a></li>
+                    <li><a href="#" data-icon="custom">Email</a></li>
+                    <li><a href="#map" data-icon="custom">MAP</a></li>
+                    <li><a href="#" data-icon="custom">Beer</a></li>
+                    <li><a href="#about" data-icon="custom" class="ui-btn-active">About</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div><!-- /page -->
+
+    <div data-role="page" id="map">
+
+        <div data-role="header">
+            <h1>Map</h1>
+        </div><!-- /header -->
+
+        <div data-role="content">   
+            <h3>Location</h3>
+            <div>
+                <iframe src="http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d12900.546703845972!2d120.38083298297782!3d36.06577028013912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x359610f9ae1f7263%3A0xe8461e765d4e1472!2z5rW35bKb5riU5p2R!5e0!3m2!1szh-CN!2scn!4v1515160007683" width="600" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div><!-- /content -->
+        
+        <div data-role="footer" class="nav-glyphish-example" data-position="fixed">
+            <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+                <ul>
+                    <li><a href="#home" data-icon="custom">HOME</a></li>
+                    <li><a href="#" data-icon="custom">Email</a></li>
+                    <li><a href="#map" data-icon="custom" class="ui-btn-active">MAP</a></li>
+                    <li><a href="#" data-icon="custom">Beer</a></li>
+                    <li><a href="#about" data-icon="custom">About</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div><!-- /page -->
+</div>
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+
+
+</body>
+
+</html>
